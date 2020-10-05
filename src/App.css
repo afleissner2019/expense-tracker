@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-self: center;
+  text-align: start;
+
+  color: white;
+  font-weight: bolder;
+  background-color: rgba(82, 78, 78, 0.5);
+  text-align: center;
+  padding-top: 10px;
+
+  margin-bottom: 10px;
+  margin-right: 60px;
+  border: 1px solid black;
+
+  height: 30px;
+
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list:hover {
+  color: red;
+}
+
+.edit-button:hover {
+  cursor: pointer;
+  background-color: green;
+}
+.delete-button:hover {
+  cursor: pointer;
+  background-color: crimson;
+}
+
+
+.expense-bill {
+  padding-right: 100px;
+}
+label {
+  margin-right: 5px;
+  height: 50px;
+
+  color: black;
+  font-weight: bolder;
+}
+.expense-amount {
+  margin-right: 50px;
+}
+
+.expense-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remove-btn {
+  border: 2px solid black;
+  height: 40px;
+  width: 100px;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: white;
+  background-color: crimson;
+  font-weight: bolder;
+}
+.remove-btn:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.container-group {
+  font-weight: bolder;
+  padding-right: 5px;
+}
+.sub-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-weight: bolder;
+
+  margin-top: 120px;
+}
+
+.main-header {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./expense.jpeg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border: 1px solid rgb(22, 21, 22);
+}
+.total-amount {
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px black;
+}
+
+.submit-button {
+  border: solid 1px black;
+  font-weight: bolder;
+  background-color: rgb(70, 66, 66);
+  color: white;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+}
+
+.error {
+  margin-top: 40px;
+
+  color: white;
+
+  font-weight: bolder;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  text-transform: capitalize;
+}
+.error-danger{
+  color: red;
+  border: 1px solid red;
+  background-color: white;
+  height: 40px;
+  padding-top:13px;
+}
+
+.error-success{
+  color: green;
+  border: 1px solid green;
+  background-color: white;
+  height: 40px;
+  padding-top:13px;
+}
